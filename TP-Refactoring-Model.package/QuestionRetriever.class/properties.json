@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "TP-Refactoring-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"option",
+		"cuoora"
+	],
+	"name" : "QuestionRetriever",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+private
+like
+	isLike := true.

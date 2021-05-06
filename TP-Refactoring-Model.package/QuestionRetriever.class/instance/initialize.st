@@ -1,0 +1,3 @@
+initializing
+initialize
+	option := #social

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "TP-Refactoring-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"question",
+		"timestamp",
+		"user",
+		"votes",
+		"description"
+	],
+	"name" : "Answer",
+	"type" : "normal"
+}
