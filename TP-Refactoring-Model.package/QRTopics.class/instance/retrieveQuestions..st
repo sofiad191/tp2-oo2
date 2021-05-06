@@ -1,10 +1,6 @@
 retrieving
 retrieveQuestions: aUser
-	| qRet temp topicsCol |
-	qRet := OrderedCollection new.
+	| topicsCol |
 	topicsCol := OrderedCollection new.
 	aUser topics do: [ :topic | topicsCol addAll: topic questions ].
-	temp := topicsCol
-		asSortedCollection: [ :a :b | a positiveVotes > b positiveVotes ].
-	qRet := temp last: (100 min: temp size).
-	^ qRet reject: [ :q | q user = aUser ]
+	^ self retrieve: topicsCol for: aUser
