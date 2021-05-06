@@ -1,6 +1,3 @@
 operations
 positiveVotes
-	| r |
-	r := OrderedCollection new.
-	votes do:[:vote | vote isLike ifTrue:[r add: vote]].
-	^r
+		^ votes count: [ :v | v isLike ]
