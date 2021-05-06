@@ -1,8 +1,3 @@
-as yet unclassified
+operations
 retrieve: aCollection for: aUser
-	| qRet temp |
-	qRet := OrderedCollection new.
-	temp := aCollection
-		asSortedCollection: [ :a :b | a positiveVotes > b positiveVotes ].
-	qRet := temp last: (100 min: temp size).
-	^ qRet reject: [ :q | q user = aUser ]
+	^ ( ( aCollection asSortedCollection: [ :a :b | a positiveVotes > b positiveVotes ] ) last: (100 min: aCollection size) ) reject: [ :q | q user = aUser ]
