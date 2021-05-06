@@ -1,4 +1,4 @@
-as yet unclassified
+operations
 positiveVotes
 	| r |
 	r := OrderedCollection new.

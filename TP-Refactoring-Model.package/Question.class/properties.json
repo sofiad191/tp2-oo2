@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "Publication",
 	"category" : "TP-Refactoring-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,11 +8,7 @@
 	"instvars" : [
 		"title",
 		"answers",
-		"topics",
-		"timestamp",
-		"user",
-		"votes",
-		"description"
+		"topics"
 	],
 	"name" : "Question",
 	"type" : "normal"
