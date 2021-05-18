@@ -1,7 +1,5 @@
 retrieving
 retrieveQuestions: aUser
-	| followingCol |
-	followingCol := OrderedCollection new.
-	aUser following
-		do: [ :follow | followingCol addAll: follow questions ].
-	^ self retrieve: followingCol for: aUser
+
+	
+	^ self retrieve: (aUser following flatCollect: [ :follow | follow questions ]) for: aUser.

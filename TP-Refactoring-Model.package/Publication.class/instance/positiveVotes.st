@@ -1,3 +1,4 @@
 operations
 positiveVotes
-		^ votes count: [ :v | v isLike ]
+
+	^ votes select: [ :vote | vote isLike ]

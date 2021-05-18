@@ -1,6 +1,6 @@
 retrieving
 retrieveQuestions: aUser
-	| topicsCol |
-	topicsCol := OrderedCollection new.
-	aUser topics do: [ :topic | topicsCol addAll: topic questions ].
-	^ self retrieve: topicsCol for: aUser
+	
+	^ self
+		retrieve: (aUser topics flatCollect: [ :topico | topico questions ])
+		for: aUser

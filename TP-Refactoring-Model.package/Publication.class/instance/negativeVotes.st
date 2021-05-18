@@ -1,3 +1,3 @@
 operations
 negativeVotes
-	^ votes count: [ :v | v isLike not ]
+	^ votes reject: [ :vote | vote isLike ]
