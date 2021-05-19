@@ -1,3 +1,0 @@
-private
-like
-	isLike := true.

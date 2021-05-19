@@ -1,3 +1,0 @@
-private
-dislike
-	isLike := false.
