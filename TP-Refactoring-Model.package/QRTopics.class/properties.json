@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QuestionRetriever",
+	"category" : "TP-Refactoring-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QRTopics",
+	"type" : "normal"
+}
