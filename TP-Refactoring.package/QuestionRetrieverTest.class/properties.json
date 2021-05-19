@@ -1,0 +1,26 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "TP-Refactoring-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cuoora",
+		"socialRetriever",
+		"topicsRetriever",
+		"newsRetriever",
+		"popularTodayRetriever",
+		"user1",
+		"user2",
+		"user3",
+		"topicOO1",
+		"topicOO2",
+		"questionUser1TopicOO1",
+		"questionUser3TopicOO2",
+		"questionUser2TopicOO2",
+		"question2User3TopicOO2"
+	],
+	"name" : "QuestionRetrieverTest",
+	"type" : "normal"
+}
